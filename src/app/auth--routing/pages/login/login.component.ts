@@ -22,9 +22,7 @@ export class LoginComponent {
   }
 
   login() {
-    /*console.log(this.formularioLog.value);
-    console.log(this.formularioLog.valid);
-    this.router.navigateByUrl('/dashboard')*/
+    
 
     if (this.formularioLog.valid) {
       const { id, pass } = this.formularioLog.valid;
